@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Opencart Suite" duration-ms="19139" started-at="2021-10-26T20:56:42 IST" finished-at="2021-10-26T20:57:01 IST">
+    <groups>
+      <group name="Master">
+        <method signature="TC_001_AccountRegistration.test_act_reg()[pri:0, instance:testcases.TC_001_AccountRegistration@7e0e6aa2]" name="test_act_reg" class="testcases.TC_001_AccountRegistration"/>
+        <method signature="TC_002_Logintest.test_Login()[pri:0, instance:testcases.TC_002_Logintest@64485a47]" name="test_Login" class="testcases.TC_002_Logintest"/>
+      </group> <!-- Master -->
+      <group name="Sanity">
+        <method signature="TC_001_AccountRegistration.test_act_reg()[pri:0, instance:testcases.TC_001_AccountRegistration@7e0e6aa2]" name="test_act_reg" class="testcases.TC_001_AccountRegistration"/>
+      </group> <!-- Sanity -->
+      <group name="Regression">
+        <method signature="TC_002_Logintest.test_Login()[pri:0, instance:testcases.TC_002_Logintest@64485a47]" name="test_Login" class="testcases.TC_002_Logintest"/>
+      </group> <!-- Regression -->
+    </groups>
+    <test name="Opencart Test" duration-ms="19139" started-at="2021-10-26T20:56:42 IST" finished-at="2021-10-26T20:57:01 IST">
+      <class name="testcases.TC_001_AccountRegistration">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:testcases.TC_001_AccountRegistration@7e0e6aa2]" name="setup" is-config="true" duration-ms="4955" started-at="2021-10-26T20:56:42 IST" finished-at="2021-10-26T20:56:47 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="test_act_reg()[pri:0, instance:testcases.TC_001_AccountRegistration@7e0e6aa2]" name="test_act_reg" duration-ms="6461" started-at="2021-10-26T20:56:47 IST" finished-at="2021-10-26T20:56:54 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_act_reg -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:testcases.TC_001_AccountRegistration@7e0e6aa2]" name="teardown" is-config="true" duration-ms="62" started-at="2021-10-26T20:56:54 IST" finished-at="2021-10-26T20:56:54 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testcases.TC_001_AccountRegistration -->
+      <class name="testcases.TC_002_Logintest">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:testcases.TC_002_Logintest@64485a47]" name="setup" is-config="true" duration-ms="1490" started-at="2021-10-26T20:56:54 IST" finished-at="2021-10-26T20:56:55 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="test_Login()[pri:0, instance:testcases.TC_002_Logintest@64485a47]" name="test_Login" duration-ms="5895" started-at="2021-10-26T20:56:55 IST" finished-at="2021-10-26T20:57:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Login -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:testcases.TC_002_Logintest@64485a47]" name="teardown" is-config="true" duration-ms="47" started-at="2021-10-26T20:57:01 IST" finished-at="2021-10-26T20:57:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testcases.TC_002_Logintest -->
+    </test> <!-- Opencart Test -->
+  </suite> <!-- Opencart Suite -->
+</testng-results>
